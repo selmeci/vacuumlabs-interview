@@ -1,0 +1,89 @@
+{
+  "T": 2,
+  "testCases": [
+    {
+      "N": 4,
+      "Q": 6,
+      "dictionary": [
+        [
+          "big",
+          "large"
+        ],
+        [
+          "large",
+          "huge"
+        ],
+        [
+          "small",
+          "little"
+        ],
+        [
+          "apple",
+          "banana"
+        ]
+      ],
+      "queries": [
+        [
+          "same",
+          "same"
+        ],
+        [
+          "big",
+          "huge"
+        ],
+        [
+          "huge",
+          "big"
+        ],
+        [
+          "apple",
+          "peach"
+        ],
+        [
+          "big",
+          "tall"
+        ],
+        [
+          "peach",
+          "PEACH"
+        ]
+      ]
+    },
+    {
+      "N": 5,
+      "Q": 2,
+      "dictionary": [
+        [
+          "wood",
+          "FORest"
+        ],
+        [
+          "meadoW",
+          "PrAirIe"
+        ],
+        [
+          "WOOD",
+          "Lumber"
+        ],
+        [
+          "lumber",
+          "forest"
+        ],
+        [
+          "lumber",
+          "forest"
+        ]
+      ],
+      "queries": [
+        [
+          "wood",
+          "LUMBER"
+        ],
+        [
+          "mEADOw",
+          "fire"
+        ]
+      ]
+    }
+  ]
+}
